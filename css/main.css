@@ -1,0 +1,117 @@
+/* main.css */
+
+body {
+	background-color: #3D3D3D;
+}	
+
+h1 {
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 50px;
+}
+
+p {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+label {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.centered {
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.words {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prompt {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.promptLast {
+    color: grey;
+}
+
+.promptCurrent {
+    font-size: 32px;
+    font-weight: bold;
+    color: burlywood;
+}
+
+.promptNext {
+    color: lightgrey;
+}
+
+.textButton {
+    padding: 5px 10px 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    color: lightgrey;
+}
+
+#header {
+	height: 150px;
+}
+
+#timeTitle {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#timeSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+#timeSelect label:hover {
+    cursor: pointer;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+#timeSelect input:checked + label {
+    color: burlywood;
+    text-shadow: black 1px 1px;
+    font-weight: bold;
+}
+
+#countdown {
+	font-size: 28px;
+}
+
+#confirm {
+  border-radius: 20px;
+  padding: 10px 25px 10px 25px;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+#confirm:hover {
+    cursor: pointer;
+}

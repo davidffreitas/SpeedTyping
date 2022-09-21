@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Get your fingers ready</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <section class="centered">
+            <div id="header">
+                <h1>Speed Typing!</h1>
+            </div>
+        </section>
+        <section class="centered">
+            <div id="stage">
+                <h3 id="timeTitle">Time:</h3>
+                <div id="timeSelect">
+                    <div class="textButton">
+                        <input type="radio" id="select15" name="timeButton" value="15" checked>
+                        <label for="select15">15</label>
+                    </div>
+
+                    <div class="textButton">
+                        <input type="radio" id="select30" name="timeButton" value="30">
+                        <label for="select30">30</label>
+                    </div>
+
+                    <div class="textButton">
+                        <input type="radio" id="select45" name="timeButton" value="45">
+                        <label for="select45">45</label>
+                    </div>
+
+                    <div class="textButton">
+                        <input type="radio" id="select60" name="timeButton" value="60">
+                        <label for="select60">60</label>
+                    </div>
+
+                    <div class="textButton">
+                        <input type="radio" id="select120" name="timeButton" value="120">
+                        <label for="select120">120</label>
+                    </div>
+                </div>
+                <input onclick="startTyping()" type="button" value="Begin" id="confirm">
+            </div>
+        </section>
+        <script src="javascript/speedTyping.js"></script>
+    </body>
+</html>
